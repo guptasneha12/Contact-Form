@@ -1,0 +1,58 @@
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(30, 54, 59, 1) 0%,
+      rgba(93, 93, 116, 1) 100%
+    );
+}
+
+.container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width:300px;
+    width: 90%; /* Adjusted width for responsiveness */
+    margin: auto;
+   
+}
+
+.field label{
+    font-weight: 700;
+}
+input{
+    width: 97.5%;
+}
+
+.form{
+   padding-bottom: 20px;
+}
+
+.container > form {
+    width: 100%; /* Full width for smaller screens */
+    max-width: 400px; /* Adjust as needed */
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+button {
+    background: #0563b4 !important;
+    width: 100%; /* Button takes full width */
+    font-weight: bold;
+}
+
+.field {
+    width: 100%; /* Fields take full width */
+}
+
+
+
+
+
+
+
