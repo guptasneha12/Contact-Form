@@ -34,7 +34,7 @@ function App() {
     <div className="container">
 
       <form className="form" onSubmit={(e) => Submit(e)}>
-        <h1>Login Form</h1>
+        <h1>Contact Form</h1>
         <div className="ui divider"></div>
         <div className="ui form">
           <div className="field">
